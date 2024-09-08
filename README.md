@@ -62,6 +62,9 @@ Make sure you have the following installed:
     ```bash
     pytest test/unit_test.py
 
+### Note:
+All models in the `models/` folder were trained and evaluated using **GPU** resources, primarily through **Google Colab** to take advantage of its hardware acceleration.
+
 
 ## File Structure
 ```bash
