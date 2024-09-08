@@ -30,15 +30,15 @@ CryptoBERT proved to be particularly effective in capturing real-time market sen
 Make sure you have the following installed:
 
 - **Python 3.8+**
-- **PyTorch** (CPU or GPU)
+- **PyTorch** 
 - **Streamlit** (for running the web application)
 
 ### Setup Instructions
 
 1. **Clone the repository**:
    ```bash
-   git clone https://gitlab.com/gaia/individual_project.git
-   cd cryptocurrency-analysis
+   git clone https://gitlab.com/gaiaoganesian/individual_project.git
+   cd individual_project
 
 2. **Install dependencies**:
     ```bash
@@ -46,14 +46,21 @@ Make sure you have the following installed:
 
 3. **Download the dataset**: Bitcointalk Bounties(Altcoins) Dataset.zip -> events.tsv
 
-4. **Run the Streamlit App**:
+4. **API Keys**: For running the code, you need to have an **OpenAI API Key** and a **Hugging Face API Token**.
+   
+   - Rename `.env_example` to `.env`.
+   - Add your OpenAI and Hugging Face tokens to the `.env` file:
+     ```
+     OPENAI_API_KEY=<your_openai_api_key>
+     HUGGING_FACE_API_TOKEN=<your_hugging_face_api_token>
+
+5. **Run the Streamlit App**:
     ```bash
     streamlit run app.py
 
-5. **Running Unit Tests**:
+6. **Running Unit Tests**:
     ```bash
     pytest test/unit_test.py
-
 
 
 ## File Structure
