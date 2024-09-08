@@ -50,9 +50,11 @@ Make sure you have the following installed:
     ```bash
     streamlit run app.py
 
-### Running Unit Tests
-```bash
-pytest test/unit_test.py
+5. **Running Unit Tests**:
+    ```bash
+    pytest test/unit_test.py
+
+
 
 ## File Structure
 ```bash
