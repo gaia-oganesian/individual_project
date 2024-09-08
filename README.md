@@ -72,7 +72,7 @@ All models in the `models/` folder were trained and evaluated using **GPU** reso
 INDIVIDUAL_PROJECT/
 ├── dataset/                           # Cleaned and balanced datasets
 │   ├── cleaned_events.csv             # Cleaned dataset of cryptocurrency campaigns
-│   └── balanced_dataset.csv           # Cleaned and balanced dataset for analysis
+│   └── balanced_events.csv           # Cleaned and balanced dataset for analysis
 │
 ├── embeddings/                        # Embedding models and utilities
 │   ├── base.py                        # Base embedding class
