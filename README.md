@@ -41,6 +41,7 @@ Make sure you have the following installed:
    cd cryptocurrency-analysis
 
 2. **Install dependencies**:
+    ```bash
     pip install -r requirements.txt
 
 3. **Download the dataset**: Bitcointalk Bounties(Altcoins) Dataset.zip -> events.tsv
@@ -52,6 +53,7 @@ Make sure you have the following installed:
 pytest test/unit_test.py
 
 ## File Structure
+```bash
 
 INDIVIDUAL_PROJECT/
 ├── dataset/                           # Cleaned and balanced datasets
@@ -81,14 +83,14 @@ INDIVIDUAL_PROJECT/
 ├── models/                            # Model training and analysis scripts
 │   ├── classification/                # Classification models and utilities
 │   │   ├── bert_adam.ipynb            # BERT model trained with Adam optimizer
-│   │   ├── bert_adamw.ipynb            # BERT model trained with AdamW optimizer
+│   │   ├── bert_adamw.ipynb           # BERT model trained with AdamW optimizer
 │   │   ├── bert_large_ft.ipynb        # Fine-tuned large BERT model
 │   │   ├── cryptobert.ipynb           # CryptoBERT model for classification analysis
 │   │   ├── finbert.ipynb              # FinBERT model for classification analysis
 │   │   ├── utils.py                   # Helper functions for classification models
 │   │
 │   ├── prediction/                    # Prediction scripts for category and sentiment
-│   │   ├── cryptobert_predicting.ipynb# CryptoBERT sentiment prediction script
+│   │   ├── cryptobert_predicting.ipynb # CryptoBERT sentiment prediction script
 │   │   ├── finbert_predicting.ipynb   # FinBERT sentiment prediction script
 │   │   └── utils.py                   # Helper functions for predictions
 │   │
