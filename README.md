@@ -47,9 +47,11 @@ Make sure you have the following installed:
 3. **Download the dataset**: Bitcointalk Bounties(Altcoins) Dataset.zip -> events.tsv
 
 4. **Run the Streamlit App**:
+    ```bash
     streamlit run app.py
 
 ### Running Unit Tests
+```bash
 pytest test/unit_test.py
 
 ## File Structure
