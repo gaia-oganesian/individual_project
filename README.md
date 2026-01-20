@@ -2,6 +2,7 @@
 
 ## Topic Overview
 This project aims to uncover manipulation strategies in cryptocurrency markets, which are heavily influenced by coordinated social media campaigns. Using a dataset of cryptocurrency-related bounty events spanning from May 2014 to December 2022, this research focuses on analysing these campaigns' structure, categorising their content, and evaluating the sentiment associated with them. The key objective is to develop an event categorisation and sentiment analysis app that provides actionable insights into how these campaigns may impact market behavior.
+[ms_ind_project.pdf](https://github.com/user-attachments/files/24736963/ms_ind_project.pdf)
 
 ## Dataset
 The primary dataset used in this project can be downloaded from Zenodo:
